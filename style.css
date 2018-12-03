@@ -1,0 +1,272 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    letter-spacing: -.2px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5em;
+    color: white;
+}
+
+h1 strong {
+    color: #026fff;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #026fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    flex-wrap: inherit;
+    height: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    background: #1A1F2B;
+    color: white;
+}
+
+.header a {
+    color: white;
+}
+
+.menu {
+    height: inherit
+}
+
+.menu ol {
+    display: flex;
+    justify-content: space-around;
+    height: inherit;
+}
+
+.menu ol li {
+    height: inherit
+}
+
+.menu ol li a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+
+.logo img {
+    height: 85px;
+}
+
+.hero {
+    height: 300px;
+    background-color: #272932;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.portfolio {
+    padding: 20px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid gray;
+    /* background-color: #E7ECEF; */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    -webkit-box-shadow: 2px 3px 23px -1px rgba(133,130,133,0.65);
+    -moz-box-shadow: 2px 3px 23px -1px rgba(133,130,133,0.65);
+    box-shadow: 2px 3px 23px -1px rgba(133,130,133,0.65)
+}
+
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.project-details {
+    width: 500px;
+}
+
+.project-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.project-course,
+.project-date,
+.project-url {
+    margin: 10px 0;
+}
+
+.project-description {
+    font-size: 20px;
+}
+
+.project-imageContainer {
+    width: 500px;
+}
+
+.project-imageContainer img {
+    width: 500px;
+}
+
+.events-title {
+    margin-left: 20px;
+}
+
+.events {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.event {
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #E7ECEF;
+}
+
+.event img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-detail {
+    margin: -40px 20px 40px 40px;
+    background-color: #BFDBF7;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-description {
+    text-align: left;
+}
+
+.event-url {
+    color: #1F7A8C;
+    border: 1px solid;
+    border-radius: 5px; 
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.contact {
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-email h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-email input {
+    border-color: gray;
+    padding: 5px 20px 5px 25px;
+    border-radius: 5px;
+    border-style: solid;
+    background-image: url(./assets/SVG/icons/envelope.svg);
+    background-size: 15px 15px;
+    background-position-y: center;
+    background-position-x: 5px;
+    background-repeat: no-repeat;
+}
+
+.form-email button {
+    display: block;
+    background: transparent;
+    color: white;
+    border: .6px solid white;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+}
+
+.social-link.twitter {
+    background-image: url(./assets/SVG/icons/twitter.svg)
+}
+
+.social-link.facebook {
+    background-image: url(./assets/SVG/icons/facebook.svg)
+}
+
+.social-link.github {
+    background-image: url(./assets/SVG/icons/github.svg)
+}
+
+.social-link.instagram {
+    background-image: url(./assets/SVG/icons/instagram.svg)
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background: #1A1F2B;
+    color: white; 
+}
